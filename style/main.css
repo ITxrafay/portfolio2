@@ -6,25 +6,32 @@
  body{
     margin: 0;
  }
- nav{
+
+ /* NAVIGATION STARTS */
+
+nav{
      margin-top: 20px;
-    }
-    nav ul{
-        margin: 0;
-        padding: 0;
-        list-style: none;
-        margin-top: -20px;
-    }
-    nav ul li{
-        margin-top: 34px;
-        display: inline;
-        float: right;
-        margin-left: 37px;
-        font-size: 18px;
-    }
-    nav ul li a {
-        color: black;
-    }
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-top: -20px;
+}
+nav ul li{
+   margin-top: 34px;
+    display: inline;
+    float: right;
+    margin-left: 37px;
+    font-size: 18px;
+}
+nav ul li a {
+    color: black;
+}
+
+    /* NAVIGATION ENDS */
+
+    /* HEEBO FONTS STARTS */
     .heebo{
         font-family: "Heebo", sans-serif;
         font-optical-sizing: auto;
@@ -44,6 +51,10 @@
     font-weight: 800;
     font-style: normal;
 }
+
+    /* HEEBO FONTS ENDS */
+
+    /* CONTAINER STARTS */
 .container{
     width: 856px;
     margin:  auto;
@@ -102,6 +113,10 @@
     box-shadow: none;
     border: none;
 }
+
+    /* CONTAINER ENDS */
+
+    /* RECENT STARTS */
 .recent-main{
     width: 1265px;
     height: 396px;
@@ -176,6 +191,11 @@
     margin-top: 32px;
     color: #21243D;
 }
+
+    /* RECENT ENDS */
+
+    /* FEATURED STARTS */
+
 .featured-work{
     /* background-color: orange; */
     margin: auto;
@@ -231,6 +251,10 @@
 hr{
     margin-bottom: 20px;
 }
+
+    /* FEATURES ENDS */
+
+    /* FOOTER STARTS */
 footer{
     width: 1152px;
     height: 182px;
@@ -258,3 +282,4 @@ footer .icons{
     margin-top: 30px;
     margin-bottom: 30px;
 }
+    /* FOOTER ENDS */
