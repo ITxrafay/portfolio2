@@ -177,12 +177,84 @@
     color: #21243D;
 }
 .featured-work{
-    background-color: orange;
+    /* background-color: orange; */
     margin: auto;
     width: 858px;
     height: 785px;
 }
-.image{
+/* .image{
     width: 246px;
     height: 180px;display: inline;
+} */
+ 
+.division1{
+  display: flex; 
+  padding-bottom: 30px;
+}
+
+.work-image img {
+  width: 246px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+.content{
+    margin-left: 20px;
+}
+.content h3 {
+  font-size: 30px;
+  margin: 0 0 15px 0;
+}
+
+.para-content{
+  margin-bottom: 15px;
+}
+
+.part-1{
+  background-color: #142850;
+  color: white;
+  padding: 2px 10px;
+  border-radius: 16px;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.ctg {
+  color: #8695A4;
+  font-size: 20px;
+}
+
+.ctg p {
+  line-height: auto;
+  margin: 0;
+}
+hr{
+    margin-bottom: 20px;
+}
+footer{
+    width: 1152px;
+    height: 182px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer .icon-main{
+    width: 232px;
+    height: 32px;
+    align-items: center;
+}
+footer .icons{
+    width: 30px;
+    height: 30px;
+    padding-left: 35px;
+    margin-top: 132px;
+}
+.copy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 35px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
